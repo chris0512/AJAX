@@ -17,6 +17,7 @@
                 })
                 .then((data) => {
                     let result = document.querySelector('#result');
+                    result.innerHTML = "";
                     for(let i =0; i < data.length; i++) {
                           let product = data[i];
                           result.innerHTML +=
